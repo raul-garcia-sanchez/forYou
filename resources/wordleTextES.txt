@@ -1,0 +1,66 @@
+headIndex:WORDLE
+header:WORDLE
+instructions:Adivina la <strong>WORDLE</strong> en 6 intentos.<br>Cada fila debe ser una palabra válida de 5 letras.<br>Pulse el botón intro para enviar.<br>Tras cada suposición, el color de las fichas cambiará<br>para mostrar qué tan cerca estas de la palabra.<br><br><strong>Ejemplos</strong><br>La letra F está en la palabra y en el lugar correcto -> VERDE<br>La letra P está en la palabra y en el sitio equivocado -> AMARILLO<br>La letra H no está en la palabra y en ninguna parte -> MARRÓN
+placeholder:Escriba su nombre
+buttonStart:JUGAR
+alert:<strong>Por favor, introduzca un nombre de usuario para poder empezar a jugar</strong>
+imgWordle:./resources/imgLandingPageES.png
+buttonReset:Reiniciar
+buttonHallFame:Salón de la Fama
+buttonNormalMode:Modo Normal
+buttonChronoMode:Modo Crono
+buttonCancel:Cancelar
+titleCautionReset:¿Quieres reiniciar todos tus datos?
+textCautionReset:Al hacer clic en 'Reiniciar', eliminará toda su información y deberá iniciar sesión nuevamente.
+menuQuickPlay:Partida rápida
+
+headGame:JUEGO
+menuGameToIndex: Menu Principal
+headerh1:LA PALABRA OCULTA
+headerh3Pt1:Será capaz
+headerh3Pt2:de adivinar la palabra?
+points:puntuación
+firstRowKeyboard:Q,W,E,R,T,Y,U,I,O,P
+secondRowKeyboard:A,S,D,F,G,H,J,K,L,Ñ
+thirdRowKeyboard:ENVIAR,Z,X,C,V,B,N,M,BORRAR
+keysSendDelete:ENVIAR,BORRAR
+textPlayerRecord:Jugador con el record
+
+headLose:DERROTA
+menuLoseToGame:Jugar de nuevo
+menuLoseToIndex:Menu Principal
+textLoseH1:NO HAS ACERTADO LA PALABRA OCULTA!
+pointsLosePt1:HAS PERDIDO CON
+pointsLosePt2:PUNTOS
+textLoseP:La palabra para adivinar era
+finalMessageLose:DERROTA!!
+
+headWin:VICTORIA
+menuWinToGame:Jugar de nuevo
+menuWinToIndex:Menu Principal
+textWin:HAS ACERTADO LA PALABRA OCULTA!
+pointsWinPt1:TIENES
+pointsWinPt2:PUNTOS
+finalMessageWin:VICTORIA!!
+publishPoints:Publicar Estadísticas
+titleStatistics:¿Quieres publicar las estadísticas?
+buttonAccept:Aceptar
+textAcceptStatistics:Estadísticas publicadas
+
+headRanking:CLASIFICACIÓN
+rankingName:Nombre
+rankingPoints:Puntos
+rankingNumberVictory:Numero de victorias por intentos
+rankingDefeat:Derrotas
+
+headError:ERROR 403
+titleError:ERROR 403 PROHIBIDO
+textError:Lo sentimos, no tienes permiso para acceder a esta página.
+darkMode:Modo Oscuro
+
+gameLoseText:Partidas Perdidas
+gameWinText:Partidas Exitosas
+numberAttemptsText:Número de intentos
+numberWinsText:Número de victorias
+lang:es
+nojavascript:HABILITA JAVASCRIPT PARA JUGAR

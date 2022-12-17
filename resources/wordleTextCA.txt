@@ -1,0 +1,66 @@
+headIndex:WORDLE
+header:WORDLE
+instructions:Endevina la <strong>WORDLE</strong> en 6 intents.<br>Cada fila ha de ser una paraula vàlida de 5 lletres.<br>Premi el botó intro per enviar.<br>Després de cada suposició, el color de les fitxes canviarà<br>per mostrar què tan a prop ets de la paraula. <br><br><strong>Exemples</strong> <br>La lletra C està en la paraula i en el lloc correcte -> VERD <br>La lletra P està en la paraula i en el lloc equivocat -> GROC <br>La lletra E no està en la paraula i enlloc -> MARRÓ
+placeholder:Escrigui el seu nom
+buttonStart:JUGAR
+alert:<strong>Si us plau, introduiu un nom d'usuari per poder començar a jugar</strong>
+imgWordle:./resources/imgLandingPageCA.png
+buttonReset:Restablir
+buttonHallFame:Saló de la Fama
+buttonNormalMode:Mode Normal
+buttonChronoMode:Mode Crono
+buttonCancel:Cancel·lar
+titleCautionReset:Vols restablir totes les teves dades?
+textCautionReset:En fer clic a "Restablir", eliminaràs tota la teva informació i hauràs d'iniciar sessió de nou.
+menuQuickPlay:Partida ràpida
+
+headGame:JOC
+menuGameToIndex:Menu Principal
+headerh1:LA PARAULA OCULTA
+headerh3Pt1:Serà capaç
+headerh3Pt2:d'endevinar la paraula
+points:puntuació
+firstRowKeyboard:Q,W,E,R,T,Y,U,I,O,P
+secondRowKeyboard:A,S,D,F,G,H,J,K,L,Ç
+thirdRowKeyboard:ENVIAR,Z,X,C,V,B,N,M,ESBORRAR
+keysSendDelete:ENVIAR,ESBORRAR
+textPlayerRecord:Jugador amb el record
+
+headLose:DERROTA
+menuLoseToGame:Jugar de nou
+menuLoseToIndex:Menu Principal
+textLoseH1:NO HAS ENCERTAT LA PARAULA OCULTA!
+pointsLosePt1:HAS PERDUT AMB
+pointsLosePt2:PUNTS
+textLoseP:LA PARAULA A ENDEVINAR ERA
+finalMessageLose:DERROTA!!
+
+headWin:VICTORIA
+menuWinToGame:Jugar de nou
+menuWinToIndex:Menu Principal
+textWin:HAS ENCERTAT LA PARAULA OCULTA!
+pointsWinPt1:TENS
+pointsWinPt2:PUNTS
+finalMessageWin:VICTORIA!!
+publishPoints:Publicar Estadístiques
+titleStatistics:Vols publicar les estadistiques?
+buttonAccept:Acceptar
+textAcceptStatistics:Estadístiques publicades
+
+headRanking:CLASIFICACIÓ
+rankingName:Nom
+rankingPoints:Punts
+rankingNumberVictory:Nombre de victories per intents
+rankingDefeat:Derrotes
+
+headError:ERROR 403
+titleError:ERROR 403 PROHIBIT
+textError:Ho sentim, no tens permís per accedir a aquesta pàgina
+darkMode:Mode Fosc
+
+gameLoseText:Partides Fallides
+gameWinText:Partides Exitoses
+numberAttemptsText:Nombre d'intents
+numberWinsText:Nombre de victories
+lang:ca
+nojavascript:HABILITI JAVASCRIPT PER A JUGAR

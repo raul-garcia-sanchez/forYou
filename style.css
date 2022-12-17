@@ -1,0 +1,905 @@
+/* CSS DE ETIQUETAS GLOBALES */
+body{
+    background-color: #A0DBF2;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    font-family: 'Courier New', Courier, monospace;
+}
+table{
+    margin-top: 30px;
+    border-spacing: 10px;
+    margin: auto;
+}
+
+td{ 
+    height: 40px;
+    width: 40px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.titleWordle{
+    margin-top: -25px;
+    font-size: 5em;
+    text-align: center;
+}
+
+#messageNoJavascript{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+
+dialog::backdrop  {
+    background: rgba(0,0,0,0.75) !important;
+}
+
+.slider{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.switch{
+    display: inherit !important;
+}
+
+/* CSS DE index.php */
+
+.body_index #nameUser{
+    font-size: larger;
+    font-weight: bold   ;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.body_index .header-index{
+    display: flex;
+}
+
+.body_index #formLanguage{
+    display: flex;
+    width: 40px;
+    margin-left: 60px;
+    margin-top: 20px;
+    height: 40px;
+}
+
+select#lenguageSelected{
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.body_index .containerMainContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.body_index .containerMainContent .instructions{
+    font-size: 25px;
+    padding: 0 20px 10px;
+    margin: 0;
+}
+
+.body_index .containerMainContent  .imgLanding{
+    width:285px;
+    height: 345px;
+}
+
+.body_index .formName{
+    display: flex;
+    flex-direction: column;
+}
+
+.body_index .inputName{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+}
+
+.body_index .btnSubmit{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #04D939;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.body_index #btnSubmit:hover{
+    background-color: #027333;
+    transform: scale(1.20);
+}
+
+.body_index .alert {
+    margin: auto;
+    width: 30%;
+    visibility: hidden;
+    padding: 20px;
+    background-color: #3F8EBF;
+    color: white;
+}
+
+.body_index .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.body_index .closebtn:hover {
+    color: black;
+}
+
+.body_index .containerMainContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.body_index .divReset{
+    display: flex;
+    justify-content: center;
+}
+
+.body_index .btnReset{
+    margin: auto;
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(242, 226, 5);
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 30px;
+    border-style: solid;
+    text-align: center;
+    cursor: pointer;
+}
+.body_index .btnReset:hover{
+    background-color: #b19402;
+    transform: scale(1.20);
+}
+
+.body_index .divSubmits{
+    display: flex;
+    justify-content: center;
+}
+.body_index .hrJugar{
+    color: black;
+    width: 30%;
+}
+.body_index label{
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+dialog::backdrop  {
+    background: rgba(0,0,0,0.75) !important;
+}
+.body_index .buttonsModalReset{
+    display: flex;
+    justify-content: center;
+}
+.body_index #modalReset .titleDialog{
+    display: flex;
+    justify-content: center;
+}
+.body_index #btnReset-no{
+    font-weight: bold;
+    margin: 2px;
+    background-color: grey;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.body_index #btnReset-yes{
+    font-weight: bold;
+    margin: 2px;
+    background-color: red;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.body_index .headerLanding{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.body_index .hallOfFame{
+    margin-right: 45px;
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #D9B504;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.body_index .hallOfFame:hover{
+    background-color: #907903;
+    transform: scale(1.20);
+}
+
+/* CSS de game.php */
+.body_game .containerMainContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.body_game .class-header{
+    text-align: center;
+}
+
+.body_game #divKeyboard{
+    margin: auto;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.body_game .class-keyboard{
+    width: auto;
+    background-color: #D9B504;
+    font-weight: bold;
+    height: 58px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline;
+    border: 0px;
+    margin-right: 4px;
+    margin-top: 4px;
+    flex-grow: 1;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.body_game .rowKeyboard{
+    width: auto;
+    display: flex;
+}
+
+.body_game .easterEgg{
+    background-color: white;
+    width: max-content;
+    margin: auto;
+}
+
+.body_game .divCrono{
+    display:flex;
+    justify-content:center;
+}
+
+.body_game .divCrono .pCrono{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* CSS DE lose.php */
+
+.body_lose #idTextLose{
+    text-align: center;
+    margin-top: -20px;
+    margin: auto;
+}
+
+.body_lose #pSeeOcultWord{
+    font-size: 2em;
+}
+
+/* CSS DE win.php */
+
+.body_win #idTextWin{
+    text-align: center;
+}
+
+.body_win .hallOfFame{
+    margin-left: 200px;
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #D9B504;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.body_win .hallOfFame:hover{
+    background-color: #907903;
+    transform: scale(1.20);
+}
+
+/* CSS DE error403.php */
+
+.body_error .titleError{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+.body_error .descriptionError{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* CSS COMUN DE WIN Y LOSE */
+
+#finalMessage{
+    margin-top: -30px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    font-size: 90px;
+}
+
+#statistics{
+    width: auto;
+    margin: auto;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.headerFinalPages{
+    display: flex;
+    justify-content: space-between;
+}
+
+.publish{
+    margin-right: 45px;
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #04D939;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.publish:hover{
+    background-color: #027333;
+    transform: scale(1.20);
+}
+
+.buttonsModal{
+    display: flex;
+    justify-content: space-between;
+}
+
+#btnPublish-no{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: red;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#btnPublish-yes{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #04D939;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.buttonModalInformation{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-ok-close{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #04D939;
+    transition: all .2s ease-in-out;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+#finalMessage span {
+    font-family: 'Alfa Slab One', cursive;
+    position: relative;
+    display: inline-block;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+
+@keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+
+iframe{
+    display: none;
+}
+
+/* CSS DE NAVEGACION COMUN PARA win.php, lose.php, index.php i game.php */
+#aPlay{
+    width: 50px;
+    height: auto;
+    text-decoration: none;
+    pointer-events: none;
+    color: black;
+}
+
+.linksToPages{
+    pointer-events: none;
+    cursor: pointer;
+
+}
+.linksToPagesGame{
+    cursor: pointer;
+}
+
+#iconNavigationBar{
+    font-size: 30px;
+}
+
+.dropdown {
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    background-color: #3F8EBF;
+    display:none;
+    position: fixed;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    transition: all .4s ease-in-out;
+}
+
+.dropdown-content a:hover {
+    color: white;
+    background-color: rgba(208, 208, 207, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+/* CSS de ranking.php */
+
+.body_ranking #titleRanking{
+    margin-top: 25px;
+    font-size: 5em;
+    text-align: center;
+}
+
+.body_ranking td{
+    width: 130px;
+}
+
+/* MODO NEO */
+
+.body_game.neo header{
+    color: greenyellow;
+    background-color: black;
+}
+.body_game.neo .dropdown{
+    background-color: black !important;
+}
+.body_game.neo #aPlay{
+    color: greenyellow !important;
+}
+.body_game.neo .class-keyboard{
+    color: greenyellow;
+    background-color: rgb(77, 77, 77);
+}
+
+/* DARK MODE */
+
+/* Dark Mode index */
+body.dark-mode{
+    background-color: #1d3e53;
+    color: white;
+}
+.body_index.dark-mode  .dropdown-content {
+    background-color: #3f5f72;
+}
+.body_index.dark-mode .dropdown-content .linksToPages {
+    color: white;
+}
+.body_index.dark-mode .inputName {
+    background-color: black;
+    color: white;
+}
+.body_index.dark-mode .btnSubmit {
+    color: white;
+    background-color: #027333;
+}
+
+.body_index.dark-mode .btnSubmit:hover {
+    background-color: #0e3d23;
+}
+.body_index.dark-mode .btnReset {
+    background-color: #b19402;
+    color: white;
+}
+.body_index.dark-mode .btnReset:hover {
+    background-color: #726215;
+}
+
+/* Dark Mode game */
+.body_game.dark-mode  .dropdown-content {
+    background-color: #3f5f72;
+}
+.body_game.dark-mode .dropdown-content .linksToPages {
+    color: white;
+}   
+.body_game.dark-mode  td {
+    background-color: #3F8EBF;
+}
+.body_game.dark-mode .class-keyboard{
+    color: white;
+    background-color: black;
+}
+.body_game.dark-mode .green{
+    background-color: #0e3d23 !important;
+}
+.body_game.dark-mode .yellow{
+    background-color: #b19402 !important;
+}
+.body_game.dark-mode .brown{
+    background-color: #44320f !important;
+}
+
+
+/* MODO DARK NEO */
+
+.body_game.dark-mode.neo header{
+    color: greenyellow;
+    background-color: black;
+}
+.body_game.dark-mode.neo .dropdown{
+    background-color: black !important;
+}
+.body_game.dark-mode.neo #aPlay{
+    color: greenyellow !important;
+}
+.body_game.dark-mode.neo .class-keyboard{
+    color: greenyellow;
+    background-color: rgb(77, 77, 77);
+}
+
+/* Dark Mode win */
+.body_win.dark-mode  .dropdown-content {
+    background-color: #3f5f72;
+}
+.body_win.dark-mode .dropdown-content .linksToPages {
+    color: white;
+}   
+.body_win.dark-mode td{
+    background-color: black;
+    color: white;
+}
+
+/* Dark Mode lose */
+.body_lose.dark-mode  .dropdown-content {
+    background-color: #3f5f72;
+}
+.body_lose.dark-mode .dropdown-content .linksToPages {
+    color: white;
+}
+.body_lose.dark-mode td{
+    background-color: black;
+    color: white;
+}
+
+/* Dark Mode error 403 */
+.body_error.dark-mode  .dropdown-content {
+    background-color: #3f5f72;
+}
+.body_error.dark-mode .dropdown-content .linksToPages {
+    color: white;
+}
+
+body.dark-mode dialog{
+    background-color: black;
+    color: white;
+}
+
+/* Dark Mode 'Hall of Fame' */
+
+.body_ranking.dark-mode td{
+    background-color: black;
+    color: white;
+}
+
+.body_ranking.dark-mode  .dropdown-content {
+    background-color: #3f5f72;
+}
+.body_ranking.dark-mode .dropdown-content .linksToPages {
+    color: white;
+}
+
+
+body.dark-mode .linksToPagesGame{
+    color: white;
+}
+
+/* Breakpoints para mobile responsive de index.php */
+
+@media only screen and (max-width: 799px) {
+    .body_index {
+        padding: 20px;
+    }
+    .body_index .containerMainContent{
+        display: block;
+    }
+    .body_index .containerMainContent .instructions{
+        width: 100%;
+        padding: 0 0 10px;
+    }
+    .body_index .containerMainContent  .imgLanding{
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto 20px;;
+        display:block;
+        height: auto;
+    }
+
+    .body_index #iconNavigationBar{
+        font-size: 50px;
+    }
+    
+    .body_index .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        font-size: 20px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        transition: all .4s ease-in-out;
+    
+    }
+
+    .body_index #formLanguage{
+        display: flex;
+        width: 100px;
+        margin-left: 40px;
+        margin-top: 30px;
+        height: 45px;
+    }
+
+    select#lenguageSelected{
+        border-radius: 5px;
+        text-align: center;
+        border: 2px solid black;
+        width: 60px;
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    .body_index .hallOfFame{
+        margin-right: 45px;
+        margin-top: 30px;
+        height: auto;
+        width: auto;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #D9B504;
+        transition: all .2s ease-in-out;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .titleWordle{
+        margin-top: -10px;
+        font-size: 5em;
+        text-align: center;
+    }
+
+    .body_index .titleDialog{
+        text-align: center;
+    }
+
+    .body_index #modalReset h3{
+        text-align: center;
+    }
+
+    .body_index .alert{
+        width: 90%;
+        text-align: center;
+    }
+
+}
+
+/* Breakpoints para mobile responsive de game.php */
+    
+@media only screen and (max-width: 575px) {
+    .body_game #divKeyboard{
+        width: fit-content;
+    }
+
+    .body_game #iconNavigationBar{
+        font-size: 50px;
+    }
+    
+    .body_game .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        font-size: 20px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        transition: all .4s ease-in-out;
+    
+    }
+
+    .body_game .easterEgg{
+        background-color: white;
+        width: 100%;
+        margin: auto;
+    }
+    
+}
+
+/* Breakpoints para mobile resposive de lose.php */
+@media only screen and (max-width: 470px) {
+
+    .body_lose{
+        padding: 1px;
+    }
+
+    .body_lose main{
+        margin: auto;
+    }
+
+    .body_lose #finalMessage{
+        font-size: 50px;
+    }
+
+    .body_lose td{ 
+        height: 30px;
+        width: 30px;
+        border-style: solid;
+        border-radius: 5px;
+        border-color: black;
+        background-color: white;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .body_lose #iconNavigationBar{
+        font-size: 50px;
+    }
+    
+    .body_lose .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        font-size: 20px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        transition: all .4s ease-in-out;
+    
+    }
+
+    .publish{
+        margin-right: 45px;
+        margin-top: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #04D939;
+        transition: all .2s ease-in-out;
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 20px;
+        height: 55px;
+    }
+}
+
+
+/* Breakpoints para mobile resposive de win.php */
+@media only screen and (max-width: 750px) {
+    
+    .body_win #finalMessage{
+        font-size: 50px;
+    }
+
+    .body_win .hallOfFame{
+        margin-left: 20px;
+        margin-top: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #D9B504;
+        transition: all .2s ease-in-out;
+        font-weight: bold;
+        font-size: 16px;
+        margin-right: 20px;
+        width: auto;
+    }
+
+    .body_win .titleDialog{
+        text-align: center;
+    }
+
+    .body_win #messagePostWriteStatistics{
+        text-align: center;
+    }
+
+}
+
+/* Breakpoints para mobile resposive de ranking.php */
+@media only screen and (max-width: 380px) {
+    
+    .body_ranking{
+        width: 95%;
+    }
+
+    .body_ranking #titleRanking{
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .body_ranking table{
+        border-spacing: 4px;
+    }
+
+    .body_ranking td{
+        height: 20px;
+        width: 20px;
+        font-size: 10px;
+    }
+
+    
+
+    
+
+}
